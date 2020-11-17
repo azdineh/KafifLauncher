@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kafif Launcher</string>
+    <string name="title_activity_main">كفيف لانشر</string>
+    <string name="menu_settings">إعدادات</string>
+    
+	<string name="mainWelcome">مرحبًا بكم في برنامج كَفيف لانْشر لِذَوي الاحتياجات البَصَريًة الخاصَّة. مَرِّرْ لأَِعْلَى أَو لأَِسفل للتَنَّقُل في القائِمة و لِلْيَمين أو لِلْيَسار لِتَحديد الخَيار المَطلوب.</string>
+    <string name="mainMessages">رسائل</string>
+    <string name="mainMessagesNew">رسائل جديدة</string>
+    <string name="mainMessagesNoNew">الرسائل. ليس لديك رسائل جديدة.</string>
+    <string name="mainMessagesOneNew">الرسائل. لديك رسالة جديدة.</string>
+	<string name="mainMessagesNewFromContact">رسالة جديدة من&#160;</string>
+	<string name="mainMessagesNewFromUnknown">رسالة جديدة من رقم مجهول</string>
+	<string name="mainMessagesNotAvailable">الرسائل. غير متوفر في هذا الجهاز.</string>
+    <string name="mainCalls">المكالمات</string>
+    <string name="mainCallsMissed">مكالمات فائتة</string>
+    <string name="mainCallsNoMissed">المكالمات. ليس لديك أي مكالمات.</string>
+    <string name="mainCallsOneMissed">المكالمات. لديك مكالمة فائتة.</string>
+    <string name="mainCallsNotAvailable">المكالمات. غير متوفر في هذا الجهاز.</string>
+	<string name="mainCallsNotAvailableOS">إصدار الأندرويد من هذا الجهاز لا يسمح لـ كفيف لانشر للوصول إلى سجل المكالمات.</string>
+    <string name="mainNotAvailable">الخيار غير متوفر في هذا الجهاز.</string>
+    <string name="mainContacts">جهات الاتصال</string>
+    <string name="mainMusicPlayer">موسيقى</string>
+    <string name="mainBrowser">الإنترنت</string>
+    <string name="mainAlarms">المُنَبِّه</string>
+    <string name="mainAlarmsNoAlarms">المُنَبِّه. ليس لديك أي المنبه.</string>
+    <string name="mainAlarmsOneAlarm">المُنَبِّه. لديك مُنَبِّه.</string>
+	<string name="mainAlarmsForToday">&#160;المُنَبِّهات لهذا اليوم.</string>
+	<string name="mainVoiceRecorder">التسجيل الصوتي</string>
+	<string name="mainApplications">التطبيقات</string>
+    <string name="mainSettings">إعدادات التكوين</string>
+    <string name="mainStatus">حالة الجهاز</string>
+	<string name="mainCarrierIs">, المُشَغِّل&#160;</string>
+	<string name="mainProfileIsNormal">, الإعداد طبيعي&#160;</string>
+	<string name="mainProfileIsSilent">, الإعداد في صمت&#160;</string>
+	<string name="mainProfileIsVibrate">, الإعداد في حالة اهتزاز&#160;</string>
+	<string name="mainNoSignal">, لا توجد إشارة المحمول&#160;</string>
+	<string name="mainBatteryChargedAt">البطارية مشحونة في&#160;</string>
+    <string name="mainPercentAndTime">&#160;في المئة هي&#160;</string>
+    <string name="mainHours">&#160;ساعة&#160;</string>
+	<string name="mainMinutesAndDate">&#160;دقيقة&#160;</string>
+	<string name="mainOf">&#160;من&#160;</string>
+	<string name="mainCarrierNotAvailable">غير مُحدد</string>
+	<string name="mainWifiOnWithNetwork">و واي فاي مُفَعَّل ومُتصل بِشَبكات واي فاي&#160;</string>
+	<string name="mainWifiOnWithoutNetwork">و واي فاي مُفَعَّل وغير مُتصل بشبكة واي فاي.</string>
+	<string name="mainWifiOff">و واي فاي غير مُشَغَّل.</string>
+	<string name="mainMusicPlayerPleaseTryAgain">يُرجى الانتظار بضع ثوان حتى ينتهي المشغل من العملية وحاول مرة أخرى لاحقًا.</string>
+	<string name="mainNoTTSInstalledTitle">خطأ</string>
+	<string name="mainNoTTSInstalledMessage">لم يتم العثور على تطبيق تحويل النص إلى كلام. يرجى تنزيل تطبيق Google (مجاني) أو تطبيق آخر حتى يعمل هذا التطبيق بشكل صحيح.</string>
+	<string name="mainNoTTSInstalledButton">حسنا سأفعل.</string>
+	<string name="mainPressBack">اضغط مرة أخرى لإغلاق التطبيق.</string>
+
+    <string name="monday">الإثنين</string>
+	<string name="tuesday">الثلاثاء</string>
+	<string name="wednesday">الأربعاء</string>
+	<string name="thursday">الخميس</string>
+	<string name="friday">الجمعة</string>
+	<string name="saturday">السبت</string>
+    <string name="sunday">الأحد</string>
+	
+    <string name="january">يناير</string>
+    <string name="february">فبراير</string>
+	<string name="march">مارس</string>
+	<string name="april">أبريل</string>
+	<string name="may">ماي</string>
+	<string name="june">يونيو</string>
+	<string name="july">يوليوز</string>
+	<string name="august">غشت</string>
+	<string name="september">شتنبر</string>
+	<string name="october">أكتوبر</string>
+	<string name="november">نوفبر</string>
+	<string name="december">ديسمبر</string>
+
+	<string name="volumeMaximum">الحد الأقصى</string>
+	<string name="volumeHigher">زيادة حجم الصوت</string>
+	<string name="volumeLower">نقصان حجم الصوت</string>
+	<string name="deviceCharged">اكتمل شَحن الجهاز الآن</string>
+	<string name="deviceChargedStatus">, الجهاز مَشحون بالكامل.&#160;</string>
+	<string name="deviceCharging">الجهاز يُشْحَن</string>
+	<string name="deviceChargingStatus">, الجهاز يُشْحَن,&#160;</string>
+	<string name="deviceUnplugged">الجهاز غير موصول</string>
+	<string name="screenOn">الشاشة قيد التشغيل</string>
+	<string name="screenOff">الشاشة مُغلقة</string>
+	<string name="screenPortrait">الشاشة في الوضع العمودي</string>
+	<string name="screenLandscape">الشاشة في الوضع الأفقي</string>
+	<string name="wifiConnectedToNetwork">مُتصل بشبكة واي فاي&#160;</string>
+	<string name="wifiDisconnectedFromNetwork">مفصول عن شبكة واي فاي</string>
+	
+	<string name="layoutMainMessages">الرسائل</string>
+	<string name="layoutMainCalls">المكالمات</string>
+	<string name="layoutMainContacts">جِهات الاتصال</string>
+	<string name="layoutMainMusic">موسيقى</string>
+	<string name="layoutMainBrowser">الإنترنت</string>
+	<string name="layoutMainAlarms">التنبيهات</string>
+	<string name="layoutMainSettings">إعدادات التكوين</string>
+	<string name="layoutMainStatus">حالة</string>
+	<string name="layoutMainOnResume">أنت في القائمة الرئيسية</string>
+	
+	<string name="layoutAlarmsNotifierShutdown">حَرِّك لأعلى أو لأسفل لإيقاف تَشغيل المُنَبِّه</string>
+	
+	<string name="layoutAlarmsList">قائمة التنبيهات</string>
+	<string name="layoutAlarmsCreate">إنشاء مُنَبِّه</string>
+	<string name="layoutAlarmsAlarmCreated">لقد قمت بإنشاء المُنَبِّه. أنت في قائمة التنبيهات</string>
+	<string name="layoutAlarmsOnResume">أنت في قائمة التنبيهات</string>
+	
+	<string name="layoutAlarmsCreateMessage">- أدخل الرسالة -</string>
+	<string name="layoutAlarmsCreateMessage2">رسالة تنبيه. أُسْحُب لليمين للوصول.</string>
+	<string name="layoutAlarmsCreateMessage3">رسالة التنبيه:\n</string>
+	<string name="layoutAlarmsCreateMessage4">رسالة التنبيه.&#160;</string>
+	<string name="layoutAlarmsCreateCreate">إنشاء مُنَبِّه</string>
+	<string name="layoutAlarmsCreateDay">يوم التنبيه:&#160;</string>
+	<string name="layoutAlarmsCreateDay2">يوم التنبيه.&#160;</string>
+	<string name="layoutAlarmsCreateTimeHour">ساعة التنبيه:&#160;</string>
+	<string name="layoutAlarmsCreateTimeHour2">ساعة التنبيه.&#160;</string>
+	<string name="layoutAlarmsCreateTimeMinute">دقيقة التنبيه:&#160;</string>
+	<string name="layoutAlarmsCreateTimeMinute2">دقيقة التنبيه.&#160;</string>
+	<string name="layoutAlarmsCreateHours">&#160;ساعة</string>
+	<string name="layoutAlarmsCreateMinutes">&#160;دقائق</string>
+	<string name="layoutAlarmsCreateErrorNoMessage">خطأ. يجب عليك إدراج رسالة.</string>
+	<string name="layoutAlarmsCreateErrorAlarmConflict">خطأ. هناك مُنَبِّه آخر لنفس اليوم والوقت.</string>
+	<string name="layoutAlarmsCreateOnResume">أنت في قائمة إنشاء مُنَبِّه</string>
+	
+	<string name="layoutAlarmsListNoAlarms">لم يتم تعيين المُنَبِّهات بعد</string>
+	<string name="layoutAlarmsListList">المُنَبِّهات</string>
+	<string name="layoutAlarmsListAlarmAlarmsCount">&#160;االمُنَبِّهات المُدرجة</string>
+	<string name="layoutAlarmsListAt">&#160;الى&#160;</string>
+	<string name="layoutAlarmsListForToday">&#160;إسْحَب لليمين أو اليسار للاستماع.</string>
+	<string name="layoutAlarmsListDelete">حَذف المُنَبِّه المُحَدد</string>
+	<string name="layoutAlarmsListDeleted">تم حَذف المُنَبِّه بنجاح ، أنت في قائمة التنبيهات</string>
+	<string name="layoutAlarmsListDeleteSelectError">يجب عليك تحديد المُنَبِّه</string>
+	<string name="layoutAlarmsListOnResume">أنت في قائمة التنبيهات</string>
+	<string name="layoutAlarmsListOnResume2">تم حذف جميع التنبيهات بنجاح وأنت في قائمة التنبيهات</string>
+		
+	<string name="layoutAlarmsDeleteSelected">سيتم إلغاء التنبيه المحدد.&#160;</string>
+	<string name="layoutAlarmsDeleteDelete">تأكيد الحذف</string>
+	<string name="layoutAlarmsDeleteOnResume">أنت في قائمة حذف التنبيهات</string>
+
+	<string name="layoutAlarmsDeleteAllDelete">امسح كل التنبيهات. إسحب لليمين للتأكيد</string>
+	<string name="layoutAlarmsDeleteAllDeleteDelete">حذف كافة التنبيهات</string>
+	<string name="layoutAlarmsDeleteAllOnResume">أنت في قائمة تأكيد مسح التنبيهات</string>
+		
+	<string name="layoutVoiceRecorderList">قائمة التسجيلات الصوتية</string>
+	<string name="layoutVoiceRecorderCreate">إنشاء تسجيل صوتي</string>
+	<string name="layoutVoiceRecorderOnResume">أنت في قائمة التسجيل الصوتي</string>
+	<string name="layoutVoiceRecorderOnResume2">لقد نجحت في حفظ التسجيل الصوتي ، وأنت في قائمة التسجيل الصوتي</string>
+	
+	<string name="layoutVoiceRecorderCreateCreate">إنشاء تسجيل صوتي</string>
+	<string name="layoutVoiceRecorderCreateCreate2">إنشاء تسجيل صوتي. اسحب لليمين لبدء التسجيل ، اسحب لليمين مرة أخرى للتوقف.</string>
+	<string name="layoutVoiceRecorderCreateError">خطأ. يُرجى التحقق مما إذا كان جهازك يحتوي على بطاقة ذاكرة.</string>
+	<string name="layoutVoiceRecorderCreateOnResume">أنت في قائمة إنشاء التسجيل الصوتي</string>
+	
+	<string name="layoutVoiceRecorderListList">التسجيلات الصوتية</string>
+	<string name="layoutVoiceRecorderListList2">التسجيلات الصوتية. حَرِّك يمينًا أو يسارًا للاختيار.</string>
+	<string name="layoutVoiceRecorderListPlay">تشغيل التسجيل الصوتي</string>
+	<string name="layoutVoiceRecorderListPlay2">تشغيل التسجيل الصوتي المُحَدد. حَرِّك لليمين للتشغيل واليسار للتوقف.</string>
+	<string name="layoutVoiceRecorderListDelete">حذف التسجيل الصوتي</string>
+	<string name="layoutVoiceRecorderListDelete2">حذف التسجيل الصوتي المحدد</string>
+	<string name="layoutVoiceRecorderListItem">التسجيل الصوتي&#160;</string>
+	<string name="layoutVoiceRecorderListItemOf">&#160;من&#160;</string>
+	<string name="layoutVoiceRecorderListNoVoiceRecords">ليس لديك تسجيل صوتي</string>
+	<string name="layoutVoiceRecorderListPleaseWait">الرجاء الانتظار بضع ثوان ، بعد انتهاء العملية حاول مرة أخرى.</string>
+	<string name="layoutVoiceRecorderListError">يجب عليك تحديد تسجيل صوتي</string>
+	<string name="layoutVoiceRecorderListOnResume">أنت في قائمة التسجيلات</string>
+	<string name="layoutVoiceRecorderListOnResume2">تَمَّ حَذْف التسجيل نهائيًا ، فأنت في قائمة التسجيلات</string>
+	
+	<string name="layoutVoiceRecorderDeleteDelete">لقد اخترت تسجيل صوتي للتخلص منه&#160;</string>
+	<string name="layoutVoiceRecorderDeleteDelete2">. حَرِّك لليمين للتَّشْغيل واليسار للتوقف.</string>
+	<string name="layoutVoiceRecorderDeleteToDelete">التسجيل الصوتي&#160;</string>
+	<string name="layoutVoiceRecorderDeleteConfirm">يجب عليك التأكيد للحذف</string>
+	<string name="layoutVoiceRecorderDeleteOnResume">أنت في قائمة حذف التسجيل الصوتي</string>
+	
+	<string name="layoutApplicationsList">التطبيقات</string>
+	<string name="layoutApplicationsList2">التطبيقات. مرر لليمين أو لليسار للاستماع.</string>
+	<string name="layoutApplicationsListPleaseWait">الرجاء الانتظار بضع ثوان ، بعد انتهاء العملية حاول مرة أخرى.</string>
+	<string name="layoutApplicationsLaunch">قُم بتَشغيل التطبيق المُحدد</string>
+	<string name="layoutApplicationsLaunchError">يجِب عليك تحديد تطبيق.</string>
+	<string name="layoutApplicationsNoApps">ليس لديها تطبيق</string>
+	<string name="layoutApplicationsOnResume">أنت في قائمة التطبيقات</string>
+
+	<string name="layoutSettingsReadingSpeed">سرعة القراءة:&#160;</string>
+	<string name="layoutSettingsReadingSpeed2">سرعة القراءة.&#160;</string>
+	<string name="layoutSettingsScreenTimeout">شاشة المُهلة:\n</string>
+	<string name="layoutSettingsScreenTimeout2">مُهلة الشاشة بعد &#160;</string>
+	<string name="layoutSettingsToneNotAvailable">غير متوفر</string>
+	<string name="layoutSettingsAlarmTone">نغمة التنبيه:\n</string>
+	<string name="layoutSettingsAlarmTone2">نغمة التنبيه.&#160;</string>
+	<string name="layoutSettingsAlarmToneNotAvailable">نغمة التنبيه. غير متوفر في هذا الجهاز</string>
+	<string name="layoutSettingsNotifyTone">نغمة الإشعارات:\n</string>
+	<string name="layoutSettingsNotifyTone2">نغمة الإشعارات.&#160;</string>
+	<string name="layoutSettingsNotifyToneNotAvailable">إخطار النغمة. غير متوفر في هذا الجهاز</string>
+	<string name="layoutSettingsCallTone">نغمة الاتصال:\n</string>
+	<string name="layoutSettingsCallTone2">نغمة الاتصال.&#160;</string>
+	<string name="layoutSettingsCallToneNotAvailable">نغمة الإتصال: -</string>
+	<string name="layoutSettingsCallToneNotAvailable2">نغمة الاتصال. غير متوفر في هذا الجهاز</string>
+	<string name="layoutSettingsProfileNormal">الإعداد: عادي</string>
+	<string name="layoutSettingsProfileNormal2">الإعداد: عادي</string>
+	<string name="layoutSettingsProfileSilent">الإعداد: صامت</string>
+	<string name="layoutSettingsProfileSilent2">الإعداد: صامت</string>
+	<string name="layoutSettingsProfileVibrate">الإعداد: اهتزاز</string>
+	<string name="layoutSettingsProfileVibrate2">االإعداد: اهتزاز</string>
+	<string name="layoutSettingsWifiOn">واي فاي: مُشغَّل</string>
+	<string name="layoutSettingsWifiOn2">واي فاي مُشغَّل</string>
+	<string name="layoutSettingsWifiOn2WithoutNetwork">واي فاي. واي فاي معطلة وغير متصلة بأي شبكة واي فاي</string>
+	<string name="layoutSettingsWifiOn2WithNetwork">واي فاي. واي فاي معطلة ومتصلا بشبكة واي فاي اسمه&#160;</string>
+	<string name="layoutSettingsWifiOff">واي فاي: معطلة</string>
+	<string name="layoutSettingsWifiOff2">واي فاي. واي فاي معطلة</string>
+	<string name="layoutSettingsWifiOff3">واي فاي معطلة</string>
+	<string name="layoutSettingsBluetoothOn">البلوتوث: مشغل</string>
+	<string name="layoutSettingsBluetoothOn2">البلوتوث قيد التشغيل</string>
+	<string name="layoutSettingsBluetoothOff">البلوتوث: متوقف</string>
+	<string name="layoutSettingsBluetoothOff2">البلوتوث معطل</string>
+	<string name="layoutSettingsInputMode">وضع الإدخال:&#160;</string>
+	<string name="layoutSettingsInputMode2">أَدْخل النص من&#160;</string>
+	<string name="layoutSettingsInputModeKeyboard">لوحة المفاتيح</string>
+	<string name="layoutSettingsInputModeKeyboard2">لوحة المفاتيح المادية وشاشة اللمس</string>
+	<string name="layoutSettingsInputModeVoice">صوت</string>
+	<string name="layoutSettingsInputModeVoice2">التعرف على الصوت. قد تتطلب اتصالاً بالإنترنت.</string>
+	<string name="layoutSettingsInputModeKeyboardTalkback">لوحة المفاتيح مع Talkback</string>
+	<string name="layoutSettingsInputModeKeyboardTalkback2">معيار النظام لوحة المفاتيح مع Talkback. يجب تنشيط Talkback.</string>
+	<string name="layoutSettingsSystemSettings">اعدادات النظام</string>
+	<string name="layoutSettingsSeconds">&#160;ثانية</string>
+	<string name="layoutSettingsSeconds2">&#160;ثواني من عدم النشاط</string>
+	<string name="layoutSettingsMinute">&#160;دقيقة</string>
+	<string name="layoutSettingsMinute2">&#160;دقيقة من عدم النشاط</string>
+	<string name="layoutSettingsMinutes">&#160;دقائق</string>
+	<string name="layoutSettingsMinutes2">&#160;دقائق من عدم النشاط</string>
+	<string name="layoutSettingsPrivacyPolicy">سياسة الخصوصية</string>
+	<string name="layoutSettingsPrivacyPolicy2">سياسة خصوصية : تم إصداره في 6  نوفبر 2020. أنا هلالي عزالدين، مُطور و مُخصص هذا التطبيق للأشخاص الكفيفين وضعيفي البصر، اعتبر معلوماتك مهمة وأصدر بيان الخصوصية هذا لإبلاغك بالمعلومات التي أجمعها وكيف أستخدمها لتخصيص تجربتك وتحسينها باستمرار. ينطبق بيان الخصوصية هذا على كفيف لاتشر وخدماته ولا ينطبق على المنتج أو الخدمة التي لا ترتبط بهذا البيان أو التي تتضمن بيان الخصوصية الخاص به على التوالي. 1 - جمع المعلومات. أ. معلومات شخصية. أنا لا أجمع معلومات شخصية. المعلومات الشخصية هي المعلومات التي تحدد هويتك أو تحدد شخصًا آخر ، مثل الاسم الأول واسم العائلة أو العناوين الفعلية أو عناوين البريد الإلكتروني أو الهاتف أو الفاكس أو الكاميرا أو الميكروفون أو GPS أو أي معلومات مخزنة في جهازك. ب. المعلومات غير الشخصية. لا أقوم بجمع معلوماتك غير الشخصية عند استخدامك للتطبيق، أو عند زيارة موقع الويب الخاص بي ، بما في ذلك معلومات جهازك ونظام التشغيل والسجلات. ج. المعلومات التي تقدمها. لا أجمع معلوماتك عندما تتواصل معي. كيف أستخدم المعلومات. أ. معلومات شخصية. لا أقوم بتخزين المعلومات الشخصية وبالتالي لا أفصح عن معلوماتك الشخصية. ب. المعلومات غير الشخصية. أنا لا أبيع أو أتاجر أو أنقل معلوماتك إلى أطراف خارجية. لا أجمع بين المعلومات غير الشخصية والمعلومات الشخصية (مثل دمج اسمك مع رقم جهاز المستخدم الفريد الخاص بك). اتصل بي. إذا كان لديك أي أسئلة أو تعليقات حول هذه السياسة أو ممارسات الخصوصية لدينا ، أو للإبلاغ عن أي انتهاكات للسياسة أو إساءة استخدام تطبيق أو موقع الويب ، فيرجى الاتصال بي على azdineh@gmail.com. التغييرات. قد تتغير سياسة الخصوصية هذه مما لن يقلل من حقوقك بموجب سياسة الخصوصية هذه من وقت لآخر ، وسأنشر أي تغييرات في سياسة الخصوصية على هذه الصفحة ، لذا يرجى مراجعتها بشكل دوري. إذا كنت لا توافق على أي تعديلات على هذه السياسة ، فيمكنك على الفور إيقاف كل استخدام لجميع الخدمات. إن استمرارك في استخدام التطبيق بعد نشر أي تعديلات على هذه السياسة سيشكل موافقتك على السياسة المنقحة.
+</string>
+	<string name="layoutSettingsOnResume">أنت الآن في قائمة الإعدادات</string>
+
+	<string name="layoutContactsList">جِهات الاتصال</string>
+	<string name="layoutContactsCreate">إنشاء جهة اتصال</string>
+	<string name="layoutContactsOnResumeCreated">تم إنشاء جهة الاتصال وأنت الآن في قائمة جهات الاتصال</string>
+	<string name="layoutContactsOnResume">أنت الآن في قائمة جهات الاتصال</string>
+
+	<string name="layoutContactsCreateName">- اسم الإدخال -</string>
+	<string name="layoutContactsCreateName2">اسم جهة الاتصال. حرك لليمين للإدخال.</string>
+	<string name="layoutContactsCreateName3">اسم جهة الاتصال.&#160;</string>
+	<string name="layoutContactsCreatePhone">- إدخال رقم الهاتف -</string>
+	<string name="layoutContactsCreatePhone2">رقم الهاتف. حرك لليمين للإدخال.</string>
+	<string name="layoutContactsCreatePhone3">رقم الهاتف.&#160;</string>
+	<string name="layoutContactsCreateCreate">إنشاء جهة اتصال</string>
+	<string name="layoutContactsCreateErrorComplete">خَطأ. يَجب عليك إكمال كل حقل من أجل إنشاء جهة اتصال.</string>
+	<string name="layoutContactsCreateOnResume">أنت الآن في قائمة إنشاء جهة اتصال</string>
+
+	<string name="layoutContactsListContactsList">جهات الاتصال</string>
+	<string name="layoutContactsListContactsList2">جهات الاتصال. مرر لليمين أو لليسار لسماع كل واحدة.</string>
+	<string name="layoutContactsListNoContacts">لا توجد جهات اتصالات</string>
+	<string name="layoutContactsListWithThePhoneNumber">&#160;برقم الهاتف&#160;</string>
+	<string name="layoutContactsListCall">مكالمة</string>
+	<string name="layoutContactsListCall2">اتصل بجهة الاتصال المحددة</string>
+	<string name="layoutContactsListSendMessage">ارسل رسالة</string>
+	<string name="layoutContactsListSendMessage2">إرسال رسالة إلى جهة الاتصال المحددة</string>
+	<string name="layoutContactsListDelete">حذف جهة اتصال</string>
+	<string name="layoutContactsListDelete2">حذف جهة الاتصال المحددة</string>
+	<string name="layoutContactsListError">أولا يجب عليك تحديد جهة اتصال</string>
+	<string name="layoutContactsListPleaseWait">يرجى المحاولة مرة أخرى في غضون لحظات قليلة بعد معالجة جميع جهات الاتصال.</string>
+	<string name="layoutContactsListOnResumeContactDeleted">تم حذف جهة الاتصال وأنت الآن في قائمة جهات الاتصال</string>
+	<string name="layoutContactsListOnResume">أنت الآن في قائمة جهات الاتصال</string>
+	<string name="layoutContactsListOnResume2">تم إرسال الرسالة وأنت الآن في قائمة جهات الاتصال</string>
+
+	<string name="layoutContactsDeleteSelected">جهة اتصال مُحَددة للحذف.&#160;</string>
+	<string name="layoutContactsDeleteDelete">تأكيد الحذف</string>
+	<string name="layoutContactsDeleteOnResume">أنت الآن في قائمة حذف جهة الاتصال</string>
+
+	<string name="layoutMusicPlayerNowPlaying">الان تشغيل</string>
+	<string name="layoutMusicPlayerNowPlaying2">الان تشغيل</string>
+	<string name="layoutMusicPlayerNowPlaying3">&#160;أغنية&#160;</string>
+	<string name="layoutMusicPlayerNowPlaying4">&#160;من&#160;</string>
+	<string name="layoutMusicPlayerNowPlaying5">&#160;بواسطة&#160;</string>
+	<string name="layoutMusicPlayerNowPlayingError1">أولا يجب عليك اختيار فنان مع ألبوم</string>
+	<string name="layoutMusicPlayerNowPlayingError2">لا توجد موسيقى قيد التشغيل الآن</string>
+	<string name="layoutMusicPlayerPlay">تشغيل</string>
+	<string name="layoutMusicPlayerStop">توقيف</string>
+	<string name="layoutMusicPlayerPreviousTrack">المسار السابق</string>
+	<string name="layoutMusicPlayerPreviousTrack2">المسار السابق</string>
+	<string name="layoutMusicPlayerNextTrack">المسار التالي</string>
+	<string name="layoutMusicPlayerNextTrack2">المسار التالي</string>
+	<string name="layoutMusicPlayerLowerVolume">تقليل حجم الصوت</string>
+	<string name="layoutMusicPlayerLowerVolume2">تقليل حجم الصوت</string>
+	<string name="layoutMusicPlayerHigherVolume">زيادة حجم الصوت</string>
+	<string name="layoutMusicPlayerHigherVolume2">زيادة حجم الصوت</string>
+	<string name="layoutMusicPlayerArtists">الفنانين</string>
+	<string name="layoutMusicPlayerAlbums">ألبومات</string>
+	<string name="layoutMusicPlayerUnknown">غير معروف</string>
+	<string name="layoutMusicPlayerOnResume">أنت الآن في قائمة مشغل الموسيقى</string>
+
+	<string name="layoutMusicPlayerArtistsList">الفنانين</string>
+	<string name="layoutMusicPlayerArtistsList2">الفنانين. مرر لليمين أو لليسار لسماع كل واحدة.</string>
+	<string name="layoutMusicPlayerArtistsNoArtists">لا يوجد فنانين.</string>
+	<string name="layoutMusicPlayerArtistsAlbumsList">ألبومات</string>
+	<string name="layoutMusicPlayerArtistsAlbumsList2">ألبومات. مرر لليمين أو لليسار لسماع كل واحدة.</string>
+	<string name="layoutMusicPlayerArtistsAlbumsList3">أولا يجب عليك اختيار فنان.</string>
+	<string name="layoutMusicPlayerArtisrsAlbumsNoAlbums">لا توجد ألبومات.</string>
+	<string name="layoutMusicPlayerArtistsPleaseWait">يُرجى المحاولة مرة أخرى في غضون لحظات قليلة لليقوم مشغل الموسيقى بتصفية جميع ألبومات الفنانين.</string>
+	<string name="layoutMusicPlayerArtistsPlayAlbum">تشغيل الألبوم</string>
+	<string name="layoutMusicPlayerArtistsPlayError">أولا يجب عليك تحديد الألبوم.</string>
+	<string name="layoutMusicPlayerArtistsPlayError2">خطأ. تعذر فتح ملف الموسيقى.</string>
+	<string name="layoutMusicPlayerArtistsOnResume">أنت الآن في قائمة الفنانين</string>
+
+	<string name="layoutBrowserSearchInGoogle">البَحث في جوجل</string>
+	<string name="layoutBrowserListBookmarks">إنتقل إلى الإشارات المرجعية</string>
+	<string name="layoutBrowserAWebPageItsBeenLoading">. يرجى الانتظار حتى يتم تحميل صفحة الويب المطلوبة.</string>
+	<string name="layoutBrowserErrorPendingRequest">خطأ. صفحة ويب قيد التحميل ، يرجى الانتظار حتى الانتهاء.</string>
+	<string name="layoutBrowserLoadingPagePleaseWait">صفحة التحميل ، يرجى الانتظار</string>
+	<string name="layoutBrowserPageNotFound">الصفحة غير موجودة. يرجى التحقق من اتصالك بالإنترنت وعنوان الويب.</string>
+	<string name="layoutBrowserOnResume">أنت الآن في قائمة متصفح الويب</string>
+
+	<string name="layoutBrowserPageViewerReadTitle">قراءة عنوان الصفحة</string>
+	<string name="layoutBrowserPageViewerReadTitle2">عنوان صفحة الويب هو&#160;</string>
+	<string name="layoutBrowserPageViewerReadText">قراءة نص الصفحة</string>
+	<string name="layoutBrowserPageViewerPageLinks">روابط صفحات الويب</string>
+	<string name="layoutBrowserPageViewerPageLinks2">روابط صفحات الويب. مرر لليمين أو لليسار لسماع كل واحدة.</string>
+	<string name="layoutBrowserPageViewerPageLinks3">رابط&#160;</string>
+	<string name="layoutBrowserPageViewerPageLinks3Of">&#160;من&#160;</string>
+	<string name="layoutBrowserPageViewerPageLinks4">لا تحتوي صفحة الويب الحالية على أية روابط.</string>
+	<string name="layoutBrowserPageViewerPageLinkSelectError">أولا يجب عليك تحديد ارتباط.</string>
+	<string name="layoutBrowserPageViewerGoToLink">انتقل إلى الارتباط المحدد</string>
+	<string name="layoutBrowserPageViewerAddToBookmarks">أضف الصفحة الحالية إلى الإشارات المرجعية</string>
+	<string name="layoutBrowserPageViewerAddToBookmarksAdded">تمت إضافة الإشارة المرجعية</string>
+	<string name="layoutBrowserPageViewerAddToBookmarksRepeated">الإشارة المرجعية موجودة بالفعل</string>
+	<string name="layoutBrowserPageViewerOnResume">أنت الآن في قائمة صفحات الويب في المتصفح</string>
+
+	<string name="layoutBookmarksListList">قائمة الإشارات المرجعية</string>
+	<string name="layoutBookmarksListList2">قائمة الإشارات المرجعية. مرر لليمين أو لليسار لسماع كل واحدة.</string>
+	<string name="layoutBookmarksListList3">لا توجد إشارات مرجعية</string>
+	<string name="layoutBookmarksListGoToLink">انتقل إلى المرجعية المختارة</string>
+	<string name="layoutBookmarksListDelete">حذف الإشارة المرجعية المحددة</string>
+	<string name="layoutBookmarksListDeleted">تم حذف الإشارة المرجعية وأنت الآن في قائمة قائمة الإشارات المرجعية</string>
+	<string name="layoutBookmarksListSelectError">أولا يجب عليك تحديد إشارة مرجعية</string>
+	<string name="layoutBookmarksListOnResume">أنت الآن في قائمة قائمة الإشارات المرجعية</string>
+
+	<string name="layoutBookmarksDeleteToDelete">المرجعية المختارة للحذف.&#160;</string>
+	<string name="layoutBookmarksDeleteDelete">تأكيد الحذف</string>
+	<string name="layoutBookmarksDeleteOnResume">أنت الآن في قائمة حذف الإشارة المرجعية</string>
+
+	<string name="layoutCallsMissedCallsList">سِجِل المكالمات</string>
+	<string name="layoutCallsDeleteCallLogs">حذف السِجِلات</string>
+	<string name="layoutCallsDeleteCallLogs2">إحِذِف جميع سِجِلات المكالمات</string>
+	<string name="layoutCallsMakeCall">إجراء مكالمة</string>
+	<string name="layoutCallsOnResume">أنت الآن في قائمة المكالمات</string>
+	<string name="layoutCallsOnResume2">تَمَّ حذف جميع سِجِلات المكالمات بِنَجاح وأنت الآن في قائمة المكالمات</string>
+
+	<string name="layoutCallsMakeCallPhone">- إدخال رقم الهاتف -</string>
+	<string name="layoutCallsMakeCallPhone2">رقم الهاتف. حرك لليمين للإدخال.</string>
+	<string name="layoutCallsMakeCallPhone3">رقم الهاتف.&#160;</string>
+	<string name="layoutCallsMakeCallCall">مكالمة</string>
+	<string name="layoutCallsMakeCallCallError">يجب عليك أولاً إدخال رقم هاتف</string>
+	<string name="layoutCallsMakeCallOnResume">أنت الآن في قائمة إجراء مكالمة</string>
+
+	<string name="layoutCallsLogsLogs">سِجِل المكالمات</string>
+	<string name="layoutCallsLogsLogs2">سِجِل المكالمات. مَرر لليمين أو لليسار لِسماع كل واحدة.</string>
+	<string name="layoutCallsLogsAddToNewContact">أضف إلى جهة اتصال جديدة</string>
+	<string name="layoutCallsLogsCall">مكالمة</string>
+	<string name="layoutCallsLogsCall2">إتصل بالرقم المحدد</string>
+	<string name="layoutCallsLogsSendMessage">ارسل رسالة</string>
+	<string name="layoutCallsLogsSendMessage2">إرسال رسالة إلى جهة الاتصال المحددة</string>
+	<string name="layoutCallsLogsNoLogs">لا توجد سجلات مكالمات</string>
+	<string name="layoutCallsLogsOutgoingCall">مكالمة خارجية</string>
+	<string name="layoutCallsLogsIncomingCall">مكالمة واردة</string>
+	<string name="layoutCallsLogsMissedCall">مكالمة فائتة</string>
+	<string name="layoutCallsLogsLogItem">سجل&#160;</string>
+	<string name="layoutCallsLogsOfNumber">&#160;من&#160;</string>
+	<string name="layoutCallsLogsAt">&#160;عند&#160;</string>
+	<string name="layoutCallsLogsHours">&#160;ساعة&#160;</string>
+	<string name="layoutCallsLogsMinutes">&#160;دقيقة&#160;</string>
+	<string name="layoutCallsLogsSeconds">&#160;ثانية.</string>
+	<string name="layoutCallsLogsCallTo">&#160;الى&#160;</string>
+	<string name="layoutCallsLogsCallFrom">&#160;من&#160;</string>
+	<string name="layoutCallsLogsError">أولا يجب عليك تحديد السجل</string>
+	<string name="layoutCallsLogsPleaseTryAgain">يُرجى المحاولة مرة أخرى بعد لحظات قليلة بعد معالجة جميع سجلات المكالمات.</string>
+	<string name="layoutCallsLogsOnResume">أنت الآن في قائمة سِجِلات المكالمات</string>
+	<string name="layoutCallsLogsOnResume2">تم إرسال الرسالة وأنت الآن في قائمة سِجِلات المكالمات</string>
+
+	<string name="layoutCallsLogsDelete">حَذف سِجِلات المكالمات. حَرك لليمين للتأكيد.</string>
+	<string name="layoutCallsLogsDeleteOnResume">أنت الآن في قائمة حذف سجلات المكالمات</string>
+
+	<string name="layoutMessagesInbox">صندوق البريد</string>
+	<string name="layoutMessagesInboxNew">رسائل جديدة</string>
+	<string name="layoutMessagesInboxNoNew">صندوق البريد. لا توجد رسائل جديدة</string>
+	<string name="layoutMessagesInboxOneNew">صندوق البريد. رسالة جديدة</string>
+	<string name="layoutMessagesSent">الرسائل المُرسلة</string>
+	<string name="layoutMessagesMessageLogs">سجل الرسائل</string>
+	<string name="layoutMessagesMessageLogsDelete">حَذف السِجِلات</string>
+	<string name="layoutMessagesMessageLogsDelete2">إحذف جميع سجلات الرسائل</string>
+	<string name="layoutMessagesNew">رسالة جديدة</string>
+	<string name="layoutMessagesNew2">اكتب رسالة</string>
+	<string name="layoutMessagesOnResume">أنت الآن في قائمة الرسائل</string>
+	<string name="layoutMessagesOnResume2">تم إرسال الرسالة وأنت الآن في قائمة الرسائل</string>
+
+	<string name="layoutMessagesDeleteNameFrom">رسالة للحذف من&#160;</string>
+	<string name="layoutMessagesDeleteNameTo">رسالة للحذف إلى&#160;</string>
+	<string name="layoutMessagesDeleteDelete">تأكيد الحذف</string>
+	<string name="layoutMessagesDeleteOnResume">أنت الآن في قائمة حذف الرسائل</string>
+
+	<string name="layoutMessagesSentSent">الرسائل المرسلة</string>
+	<string name="layoutMessagesSentSent2">الرسائل المرسلة. مرر لليمين أو لليسار لسماع كل رسالة.</string>
+	<string name="layoutMessagesSentDelete">حذف رسالة</string>
+	<string name="layoutMessagesSentMessageItem">رسالة&#160;</string>
+	<string name="layoutMessagesSentMessageOf">&#160;من&#160;</string>
+	<string name="layoutMessagesSentMessageSent">إرسال الى&#160;</string>
+	<string name="layoutMessagesSentMessageMessageBody">تقول الرسالة ،&#160;</string>
+	<string name="layoutMessagesSentTryAgain">يرجى المحاولة مرة أخرى في غضون لحظات قليلة بعد معالجة جميع الرسائل المرسلة.</string>
+	<string name="layoutMessagesSentNoMessages">لا توجد رسائل</string>
+	<string name="layoutMessagesSentError">أولا يجب عليك تحديد رسالة</string>
+	<string name="layoutMessagesSentOnResume">أنت الآن في قائمة الرسائل المرسلة</string>
+	<string name="layoutMessagesSentOnResume2">تم حذف الرسالة وأنت الآن في قائمة الرسائل المرسلة</string>
+	<string name="layoutMessagesSentOnResume3">تم حَذف جميع الرسائل المرسلة بنجاح وأنت الآن في قائمة الرسائل المرسلة</string>
+
+	<string name="layoutMessagesSentDeleteAllDelete">احذف جميع الرسائل المرسلة. حرك لليمين للتأكيد.</string>
+	<string name="layoutMessagesSentDeleteAllDeleteDelete">إحذف جميع الرسائل المرسلة</string>
+	<string name="layoutMessagesSentDeleteAllOnResume">أنت الآن في قائمة حذف جميع الرسائل المرسلة</string>
+
+	<string name="layoutMessagesInboxInbox">صندوق البريد</string>
+	<string name="layoutMessagesInboxInbox2">صندوق البريد. مرر لليمين أو لليسار لسماع كل رسالة.</string>
+	<string name="layoutMessagesInboxReply">اكتب رسالة</string>
+	<string name="layoutMessagesInboxDelete">حَذف رسالة</string>
+	<string name="layoutMessagesInboxDeleteAll">حَذف كافة الرسائل المُستلمة</string>
+	<string name="layoutMessagesInboxCallTo">اتصل بجهة الاتصال</string>
+	<string name="layoutMessagesInboxAddToNewContact">أضف جهة اتصال جديدة</string>
+	<string name="layoutMessagesInboxMessageReceived">مُستلَم من&#160;</string>
+	<string name="layoutMessagesInboxMessageOn">&#160;عند&#160;</string>
+	<string name="layoutMessagesInboxMessageItem">رسالة&#160;</string>
+	<string name="layoutMessagesInboxMessageOf">&#160;من&#160;</string>
+	<string name="layoutMessagesInboxMessageAt">&#160;عند&#160;</string>
+	<string name="layoutMessagesInboxMessageHours">&#160;ساعة&#160;</string>
+	<string name="layoutMessagesInboxMessageMinutes">&#160;دقيقة&#160;</string>
+	<string name="layoutMessagesInboxMessageSeconds">&#160;ثانية.&#160;</string>
+	<string name="layoutMessagesInboxMessageMessageBody">تقول الرسالة ،&#160;</string>
+	<string name="layoutMessagesInboxTryAgain">يرجى المحاولة مرة أخرى في غضون لحظات قليلة عندما تتم معالجة جميع رسائل البريد الوارد.</string>
+	<string name="layoutMessagesInboxError">أولا يجب عليك تحديد رسالة</string>
+	<string name="layoutMessagesInboxNoMessages">لا توجد رسائل</string>
+	<string name="layoutMessagesInboxOnResume">أنت الآن في قائمة رسائل البريد الوارد</string>
+	<string name="layoutMessagesInboxOnResume2">تَمَّ إرسال الرسالة وأنت الآن في قائمة رسائل البريد الوارد</string>
+	<string name="layoutMessagesInboxOnResume3">تَمَّ حذف الرسالة وأنت الآن في قائمة رسائل البريد الوارد</string>
+	<string name="layoutMessagesInboxOnResume4">تَمَّ حذف جميع الرسائل المستلمة بنجاح وأنت الآن في قائمة رسائل البريد الوارد</string>
+
+	<string name="layoutMessagesInboxDeleteAllDelete">حَذف كافة الرسائل المستلمة. حرك لليمين للتأكيد.</string>
+	<string name="layoutMessagesInboxDeleteAllDeleteDelete">حَذف كافة الرسائل المستلمة</string>
+	<string name="layoutMessagesInboxDeleteAllOnResume">أنت الآن في قائمة حذف جميع الرسائل المستلمة</string>
+
+	<string name="layoutMessagesComposeAddressee">المُرسل إليه</string>
+	<string name="layoutMessagesComposeAddressee2">المُرسل إليه. قُم بالتمرير إلى اليمين أو اليسار لسماع كل جهة اتصال.</string>
+	<string name="layoutMessagesComposeAddressee3">المرسل إليه.&#160;</string>
+	<string name="layoutMessagesComposeMessage">رسالة</string>
+	<string name="layoutMessagesComposeMessage2">رسالة. حَرِّك لليمين لإدخال الرسالة.</string>
+	<string name="layoutMessagesComposeMessage3">رسالة.&#160;</string>
+	<string name="layoutMessagesComposeSend">أرسل رسالة</string>
+	<string name="layoutMessagesComposeSending">جاري إرسال الرسالة ، يرجى الانتظار</string>
+	<string name="layoutMessagesComposeSendingError">يتم إرسال الرسالة، الرجاء الانتظار</string>
+	<string name="layoutMessagesComposeSendingError2">تَعَذَّرَ إرسال الرسالة ، تحقق من حالة الناقل وحاول مرة أخرى لاحقًا</string>
+	<string name="layoutMessagesComposeErrorComplete">خطأ. يجب عليك إكمال كل حقل لإرسال رسالة.</string>
+	<string name="layoutMessagesComposeOnResume">أنت الآن في قائمة إنشاء الرسالة</string>
+
+	<string name="layoutInputKeysOnResume">أنت الآن في وضع إدخال النص باستخدام لوحة المفاتيح الفعلية أو شاشة اللمس. إذا كنت ستستخدم شاشة اللمس ، فقم بالتمرير لأعلى ولأسفل لتحديد حرف أو مفتاح ، قم بالتمرير لليمين لتأكيد الحرف أو المفتاح والانتقال إلى الحرف التالي ومرر لليسار لحذف الحرف الأخير.</string>
+	<string name="layoutInputKeysTips">وضع نص الإدخال \n\n* مرر لأعلى ولأسفل لتحديد الحرف \n\n* قم بالتمرير لليمين لتأكيد الحرف أو المفتاح والانتقال إلى الوضع التالي \n\n* حرك لليسار لحذف الحرف الأخير \n\n* متوافق مع لوحة المفاتيح المادية</string>
+	<string name="layoutInputKeysKeyEnter">[أدخل]</string>
+	<string name="layoutInputKeysKeyEnter2">أدخل</string>
+	<string name="layoutInputKeysKeyRead">[اقرأ]</string>
+	<string name="layoutInputKeysKeyReadText">إقرا النص</string>
+	<string name="layoutInputKeysKeyReadNumber">قراءة الرقم</string>
+	<string name="layoutInputKeysKeySpace">فراغ</string>
+	<string name="layoutInputKeysNothingToRead">لا يوجد شيء للقراءة</string>
+	<string name="layoutInputKeysEmptyField">حقل النص فارغ الآن</string>
+	<string name="layoutInputKeysEntered">&#160;أدخلت</string>
+
+	<string name="layoutInputVoiceOnResume">أنت الآن في وضع إدخال النص باستخدام قائمة التعرف على الصوت</string>
+	<string name="layoutInputVoiceStartRecognition">ابدأ التعرف على الصوت</string>
+	<string name="layoutInputVoiceStartRecognition2">التعرف على الصوت. مَرِّر لِلْيَمين ثُمَّ تَحَدَّثْ</string>
+	<string name="layoutInputVoicePossibleResult">النتيجة&#160;</string>
+	<string name="layoutInputVoicePossibleResults">النتائج(</string>
+	<string name="layoutInputVoicePossibleResults2">النتائج الممكنة.&#160;</string>
+	<string name="layoutInputVoicePossibleResults3">. مَرِّرْ لِليمين لِسَماع كُل واحِد</string>
+	<string name="layoutInputVoiceEnterSelectedResult">أَدْخِل النَتيجَة المُحَدَّدة</string>
+	<string name="layoutInputVoiceNoResultToSelect">أَولا يَجِبُ عَلَيِكَ تَحْديد نَتيجةً</string>
+	<string name="layoutInputVoiceNoRecognition">لا توجد نتائج ممكنة. من فضلك ، حاول مرة أخرى أو تحقق مما إذا كان التعرف على الصوت على جهازك يتطلب اتصالاً بالإنترنت. إذا كان الأمر كذلك ، فتحقق من حالة اتصالك بالإنترنت.</string>
+	<string name="layoutInputVoiceSystemError">خطأ في النظام. لا يُمكن تَنفيذ التَّعرف على الصوت</string>
+	<string name="layoutInputVoiceCancelAndGoBack">إلغاء والعودة إلى القائمة السابقة</string>
+
+	<string name="layoutInputKeyboardTalkbackOnResume">أنت الآن في وضع إدخال النص باستخدام لوحة مفاتيح android القياسية مع Talkback. يجب أن يكون لديك TalkBack ممكّنًا لاستخدام هذه الطريقة. تم تحديد مربع نص في الوقت الحالي وتتوفر لوحة مفاتيح android القياسية في الجزء السفلي من الشاشة. اكتب ما تريد واضغط على مفتاح الإدخال في لوحة المفاتيح لإدخال البيانات. اضغط على زر الرجوع للإلغاء والعودة إلى القائمة السابقة.</string>
+
+	<string name="callFrom">اتصال من&#160;</string>
+	<string name="callFromUnknown">اتصال من رقم غير معروف</string>
+	<string name="callingTo">الاتصال ب&#160;</string>
+	<string name="callingToUnknown">الاتصال برقم غير مسجل</string>
+	<string name="callEnded">انتهت المكالمة</string>
+
+	<string name="backToPreviousMenu">ارجع إلى القائمة السابقة</string>
+	<string name="backToMainMenu">ارجع إلى القائمة الرئيسية</string>
+
+	<string name="googleRequestTitle">طَلب إذن</string>
+	<string name="googleRequest1">منح الإذن لـ Kafif Launcher في مربع الحوار التالي. سيسمح لك ذلك بالرد على مكالمة أو رفضها عن طريق التمرير لأعلى أو لأسفل في Android 8.0 والإصدارات الأحدث. منذ تشرين الثاني (نوفمبر) 2018 ، تطلب Google أن يستهدف كل تطبيق Android 8.0 ، وهذا يعني أنه يجب الآن منح التطبيق أذونات يدويًا (ما عليك سوى القيام بذلك مرة واحدة) للعمل بشكل صحيح.</string>
+	<string name="googleRequest2">حدد Kafif laincher من الحوار التالي. سيسمح ذلك بسماع الدليل الصوتي في التطبيق (إذا تم إسكات الجهاز) وتغيير ملفات التعريف (عادي ، اهتزاز وصامت) في Android 8.0 والإصدارات الأحدث. \ n \ n منذ تشرين الثاني (نوفمبر) 2018 ، تطلب Google أن كل تطبيق يجب أن يستهدف Android 8.0 ، وهذا يعني أنه يجب الآن منح التطبيق أذونات يدويًا (ما عليك سوى القيام بذلك مرة واحدة) للعمل بشكل صحيح.</string>
+	<string name="googleRequestOk">حسنا سأفعل.</string>
+
+	<string-array name="keysAll">
+		<item>أ</item>
+		<item>ب</item>
+		<item>ت</item>
+		<item>ث</item>
+		<item>ج</item>
+		<item>ح</item>
+		<item>خ</item>
+		<item>د</item>
+		<item>ذ</item>
+		<item>ر</item>
+		<item>ز</item>
+		<item>س</item>
+		<item>ش</item>
+		<item>ص</item>
+		<item>ض</item>
+		<item>ط</item>
+		<item>ظ</item>
+		<item>ع</item>
+		<item>غ</item>
+		<item>ف</item>
+		<item>ق</item>
+		<item>ك</item>
+		<item>ل</item>
+		<item>م</item>
+		<item>ن</item>
+		<item>هـ</item>
+		<item>و</item>
+		<item>ي</item>
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>.</item>
+		<item>,</item>
+		<item>:</item>
+		<item>;</item>
+		<item>!</item>
+		<item>\?</item>
+		<item>+</item>
+		<item>-</item>
+		<item>*</item>
+		<item>#</item>
+		<item>%</item>
+		<item>&amp;</item>
+		<item>$</item>
+		<item>/</item>
+		<item>"\\"</item>
+		<item>(</item>
+		<item>)</item>
+		<item>{</item>
+		<item>}</item>
+		<item>\"</item>
+		<item>\@</item>
+		<item>[اقرأ]</item>
+		<item>[أدخل]</item>
+		<item>_</item>
+	</string-array>
+
+	<string-array name="keysOnlyNumbers">
+		<item>#</item>
+		<item>*</item>
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>[اقرأ]</item>
+		<item>[أدخل]</item>
+	</string-array>
+
+	<integer-array name="screenTimeOutSeconds">
+		<item>15</item>
+		<item>30</item>
+		<item>60</item>
+		<item>120</item>
+		<item>300</item>
+		<item>600</item>
+	</integer-array>
+
+	<string-array name="timeHourValues">
+		<item>00</item>
+		<item>01</item>
+		<item>02</item>
+		<item>03</item>
+		<item>04</item>
+		<item>05</item>
+		<item>06</item>
+		<item>07</item>
+		<item>08</item>
+		<item>09</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>
+		<item>16</item>
+		<item>17</item>
+		<item>18</item>
+		<item>19</item>
+		<item>20</item>
+		<item>21</item>
+		<item>22</item>
+		<item>23</item>
+	</string-array>
+
+	<string-array name="timeMinutesValues">
+		<item>00</item>
+		<item>05</item>
+		<item>10</item>
+		<item>15</item>
+		<item>20</item>
+		<item>25</item>
+		<item>30</item>
+		<item>35</item>
+		<item>40</item>
+		<item>45</item>
+		<item>50</item>
+		<item>55</item>
+	</string-array>
+</resources>
